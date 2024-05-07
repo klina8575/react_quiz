@@ -1,4 +1,4 @@
-function Quiz03() {
+function Quiz04() {
    const weather = '흐림'
    const rain = 0
 
@@ -10,4 +10,4 @@ function Quiz03() {
    )
 }
 
-export default Quiz03
+export default Quiz04
