@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Quiz01 from './Quiz01'
+import Quiz02_1 from './Quiz02_1'
+import Quiz02_2 from './Quiz02_2'
+import Quiz03 from './Quiz03'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   return <Quiz01 />
+   // return <Quiz02_1 />
+   // return <Quiz02_2 numbers={[0, 1, 2, 3]} />
+   //  return <Quiz03 />
 }
 
-export default App;
+export default App
