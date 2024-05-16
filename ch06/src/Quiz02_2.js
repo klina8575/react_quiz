@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 
 const Quiz02_1 = ({ numbers }) => {
-   // useMemo를 사용하여 홀수만 필터링하고 그 합계를 계산합니다.
+   // filter, reduce 사용하여 홀수만 필터링하고 그 합계를 계산한 후 useMemo로 처리합니다.
    //const oddSum =
 
    return (
