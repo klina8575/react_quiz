@@ -8,7 +8,7 @@ const Quiz01 = () => {
       let timerId
       if (isRunning) {
          timerId = setInterval(() => {
-            //여기에 코드 작성
+            setSeconds((prevSeconds) => prevSeconds + 1)
          }, 1000)
       }
 
